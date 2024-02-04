@@ -1,0 +1,11 @@
+{
+  "name": "thought_leader_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:johngallagher/leading_software_thinkers.git",
+  "author": "John Gallagher <john@synapticmishap.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
