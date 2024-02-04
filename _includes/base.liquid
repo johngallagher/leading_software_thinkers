@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+  
+    <header>  
+      {% include "filters.liquid" %}
+    </header>
+
+    <main>
+      <section id="results">
+        {% for post in posts %}
+          {% include "post.liquid" %}
+        {% endfor %}
+      </section>
+    </main>
+
+  </body>
+
+  <script>
+    function setFilter(category) {
+      document.querySelectorAll(".post").forEach(function(element) { element.dataset.category = category })
+    }
+  </script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <header>  
+		<div id="filters">
+			<button onclick="setFilter('any')">Any</button>
+			<button onclick="setFilter('javascript')">JavaScript</button>  
+			<button onclick="setFilter('css')">CSS</button>
+		</div>
+  </header>
+
+  <main>
+
+    <section id="results">
+    
+      <article class="post hidden data-[category=javascript]:block data-[category=css]:block data-[category=any]:block" data-category="any">
+        Post with JS and CSS  
+      </article>
+
+      <article class="post hidden data-[category=css]:block data-[category=any]:block" data-category="any">
+        Post about CSS
+      </article>
+
+      <article class="post hidden data-[category=technical]:block data-[category=any]:block" data-category="any">
+        Post about Technical
+      </article>
+
+    </section>
+
+  </main>
+
+</body>
+
+<script>
+	function setFilter(category) {
+		document.querySelectorAll(".post").forEach(function(element) { element.dataset.category = category })
+	}
+</script>
+</html>

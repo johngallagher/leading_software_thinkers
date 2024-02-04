@@ -1,0 +1,14 @@
+[
+  {
+    "categories": ["javascript"],
+    "title": "Article about JS"
+  },
+  {
+    "categories": ["css"],
+    "title": "Article about CSS"
+  },
+  {
+    "categories": ["hey", "css", "javascript", "aa"],
+    "title": "Article about Hey"
+  }
+]

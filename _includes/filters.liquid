@@ -1,0 +1,6 @@
+<div id="filters">
+  {% assign filters = posts | searchFilterCategories | searchFiltersSort | uniq %}
+  {% for filter in filters %}
+    {% include "filter.liquid" %}
+  {% endfor %}
+</div>
