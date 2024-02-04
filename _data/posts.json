@@ -1,14 +1,18 @@
 [
   {
-    "categories": ["javascript"],
+    "categories": ["leadership"],
     "title": "Article about JS"
   },
   {
-    "categories": ["css"],
+    "categories": ["career"],
     "title": "Article about CSS"
   },
   {
-    "categories": ["hey", "css", "javascript", "aa"],
-    "title": "Article about Hey"
+    "categories": ["technical-skills", "soft-skills"],
+    "title": "Article about CSS and JS"
+  },
+  {
+    "categories": ["career", "industry", "soft-skills"],
+    "title": "Article about Career, Industry and Soft Skills"
   }
 ]
