@@ -1,60 +1,232 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Main</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-  <body>
+<body>
+
+  <nav class="bg-white border-gray-200 dark:bg-gray-900" data-pg-collapsed>
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" data-pg-collapsed><a
+        href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse"> <img
+          src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> <span
+          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false"><span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden md:block md:w-auto w-full" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li><a href="#"
+              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              aria-current="page">Home</a>
+          </li>
+          <li><a href="#"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="mt-0">
+    <div class="flex mt-11 my-11 place-content-center">
+      <div class="inline-flex items-center rounded-md shadow-sm" role="group" data-pg-collapsed>
+  <label class="pr-4 text-sm">Topic</label>
   
-    <header>  
-      <div id="filters">
   
+  <button onclick="setFilter('any')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Any
+</button>
   
-    <button onclick="setFilter('any')">Any</button>  
+  <button onclick="setFilter('career')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Career
+</button>
   
-    <button onclick="setFilter('career')">Career</button>  
+  <button onclick="setFilter('design')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Design
+</button>
   
-    <button onclick="setFilter('industry')">Industry</button>  
+  <button onclick="setFilter('leadership')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Leadership
+</button>
   
-    <button onclick="setFilter('leadership')">Leadership</button>  
+  <button onclick="setFilter('reliability')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Reliability
+</button>
   
-    <button onclick="setFilter('soft-skills')">Soft Skills</button>  
-  
-    <button onclick="setFilter('technical-skills')">Technical Skills</button>  
+  <button onclick="setFilter('technical')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+  Technical
+</button>
   
 </div>
-    </header>
+    </div>
+    <div class="container px-4 mx-auto">
+      <div class="grid grid-cols-2 lg:grid-cols-4 my-11 gap-2">
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=leadership]:block data-[category=career]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ" alt="Gregor Ojstersek avatar" />
+      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Gregor Ojstersek</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">CTO | Author of Engineering Leadership newsletter - Helping you become a great engineering leader!</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Leadership</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Career</div>
+        
+      </div>
+      <div class="mt-2 w-full"><a href="#"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Twitter</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">LinkedIn</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Book</a>
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=reliability]:block data-[category=leadership]:block data-[category=technical]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D4D03AQHOhxrqJT6YFw/profile-displayphoto-shrink_800_800/0/1704364269667?e=1712793600&v=beta&t=6E_mNXAd0zXx4eEd1h7ujRu83MDWBj5n0rVNvEKSaqw" alt="Alex Ewerlöf  avatar" />
+      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Alex Ewerlöf </h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Original daily insights: Tech Leadership | Software Reliability Engineering | Growth</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Reliability</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Leadership</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+      </div>
+      <div class="mt-2 w-full"><a href="#"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Twitter</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">LinkedIn</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Book</a>
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=career]:block data-[category=technical]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo" alt="Sahil Gaba avatar" />
+      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Sahil Gaba</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Software Engineer at Google | Amazon | YouTuber</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Career</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+      </div>
+      <div class="mt-2 w-full"><a href="#"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Twitter</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">LinkedIn</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Book</a>
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=technical]:block data-[category=design]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k" alt="Nikki Siapno avatar" />
+      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Nikki Siapno</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Engineering Manager at Canva | Founder of Level Up Coding</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Design</div>
+        
+      </div>
+      <div class="mt-2 w-full"><a href="#"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Twitter</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">LinkedIn</a>
+        <a href=""
+          class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/3">Book</a>
+      </div>
+    </div>
+  </div>
+</article>
+        
+      </div>
+    </div>
+  </main>
+</body>
 
-    <main>
-      <section id="results">
-        
-          <article class="post hidden data-[category=leadership]:block data-[category=any]:block" data-category="any">
-  <h3>Article about JS</h3>
-</article>
-        
-          <article class="post hidden data-[category=career]:block data-[category=any]:block" data-category="any">
-  <h3>Article about CSS</h3>
-</article>
-        
-          <article class="post hidden data-[category=technical-skills]:block data-[category=soft-skills]:block data-[category=any]:block" data-category="any">
-  <h3>Article about CSS and JS</h3>
-</article>
-        
-          <article class="post hidden data-[category=career]:block data-[category=industry]:block data-[category=soft-skills]:block data-[category=any]:block" data-category="any">
-  <h3>Article about Career, Industry and Soft Skills</h3>
-</article>
-        
-      </section>
-    </main>
+<script>
+  function setFilter(category) {
+    document.querySelectorAll(".post").forEach(function (element) { element.dataset.category = category })
+  }
+</script>
 
-  </body>
-
-  <script>
-    function setFilter(category) {
-      document.querySelectorAll(".post").forEach(function(element) { element.dataset.category = category })
-    }
-  </script>
 </html>

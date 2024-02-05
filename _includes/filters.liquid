@@ -1,6 +1,7 @@
-<div id="filters">
+<div class="inline-flex items-center rounded-md shadow-sm" role="group" data-pg-collapsed>
+  <label class="pr-4 text-sm">Topic</label>
   {% assign filters = posts | searchFilterCategories | searchFiltersSort | uniq %}
   {% for filter in filters %}
-    {% include "filter.liquid" %}
+  {% include "filter.liquid" %}
   {% endfor %}
 </div>

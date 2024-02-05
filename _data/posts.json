@@ -1,18 +1,26 @@
 [
   {
-    "categories": ["leadership"],
-    "title": "Article about JS"
+    "categories": ["leadership", "career"],
+    "name": "Gregor Ojstersek",
+    "headline": "CTO | Author of Engineering Leadership newsletter - Helping you become a great engineering leader!",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ"
   },
   {
-    "categories": ["career"],
-    "title": "Article about CSS"
+    "categories": ["reliability", "leadership", "technical"],
+    "name": "Alex Ewerlöf ",
+    "headline": "Original daily insights: Tech Leadership | Software Reliability Engineering | Growth",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQHOhxrqJT6YFw/profile-displayphoto-shrink_800_800/0/1704364269667?e=1712793600&v=beta&t=6E_mNXAd0zXx4eEd1h7ujRu83MDWBj5n0rVNvEKSaqw"
   },
   {
-    "categories": ["technical-skills", "soft-skills"],
-    "title": "Article about CSS and JS"
+    "categories": ["career", "technical"],
+    "name": "Sahil Gaba",
+    "headline": "Software Engineer at Google | Amazon | YouTuber",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo"
   },
   {
-    "categories": ["career", "industry", "soft-skills"],
-    "title": "Article about Career, Industry and Soft Skills"
+    "categories": ["technical", "design"],
+    "name": "Nikki Siapno",
+    "headline": "Engineering Manager at Canva | Founder of Level Up Coding",
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k"
   }
 ]
