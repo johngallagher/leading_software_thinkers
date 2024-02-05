@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Main</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -12,7 +13,8 @@
   <nav class="bg-white border-gray-200 dark:bg-gray-900" data-pg-collapsed>
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" data-pg-collapsed>
       <a href="https://leadingsoftwarethinkers.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Leading Software Thinkers</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Leading Software
+          Thinkers</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -37,39 +39,95 @@
     </div>
   </nav>
   <main class="mt-0">
-    <div class="flex mt-11 my-11 place-content-center">
-      <div class="inline-flex items-center rounded-md shadow-sm" role="group" data-pg-collapsed>
-  <label class="pr-4 text-sm">Topic</label>
-  
-  
-  <button onclick="setFilter('any')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Any
-</button>
-  
-  <button onclick="setFilter('career')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Career
-</button>
-  
-  <button onclick="setFilter('design')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Design
-</button>
-  
-  <button onclick="setFilter('leadership')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Leadership
-</button>
-  
-  <button onclick="setFilter('reliability')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Reliability
-</button>
-  
-  <button onclick="setFilter('technical')" type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-  Technical
-</button>
-  
+    <div class="flex gap-2 mx-4 mt-11 my-11 place-content-center">
+        
+
+  <div class="hidden md:flex space-x-2 items-center">
+    <label class="pr-4 text-sm">Topic</label>
+    
+      <div>
+  <input type="radio" onclick="setFilter('any')" name="filters" id="filters_any" class="sr-only peer"  checked />
+  <label for="filters_any"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Any
+  </label>
 </div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('career')" name="filters" id="filters_career" class="sr-only peer" />
+  <label for="filters_career"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Career
+  </label>
+</div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('design')" name="filters" id="filters_design" class="sr-only peer" />
+  <label for="filters_design"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Design
+  </label>
+</div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('leadership')" name="filters" id="filters_leadership" class="sr-only peer" />
+  <label for="filters_leadership"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Leadership
+  </label>
+</div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('reliability')" name="filters" id="filters_reliability" class="sr-only peer" />
+  <label for="filters_reliability"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Reliability
+  </label>
+</div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('technical')" name="filters" id="filters_technical" class="sr-only peer" />
+  <label for="filters_technical"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Technical
+  </label>
+</div>
+    
+  </div>
+
+  <div class="md:hidden flex w-full items-center">
+    <label class="pr-4 text-sm">Topic</label>
+    <select onchange="setFilter(this.value)" class="w-full px-4 py-2 bg-gray-200">
+      
+        <option value="any">
+  Any
+</option>
+      
+        <option value="career">
+  Career
+</option>
+      
+        <option value="design">
+  Design
+</option>
+      
+        <option value="leadership">
+  Leadership
+</option>
+      
+        <option value="reliability">
+  Reliability
+</option>
+      
+        <option value="technical">
+  Technical
+</option>
+      
+    </select>
+  </div>
     </div>
     <div class="container px-4 mx-auto">
-      <div class="grid grid-cols-2 lg:grid-cols-4 my-11 gap-2">
+      <div class="grid grid-cols-1 lg:grid-cols-4 my-11 gap-2">
         
         <article
   class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=leadership]:block data-[category=career]:block data-[category=any]:block"
@@ -77,7 +135,7 @@
   <div class="flex flex-col h-full justify-between">
     <div class="flex flex-col items-center">
       <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ" alt="Gregor Ojstersek avatar" />
-      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Gregor Ojstersek</h5>
+      <h5 id="gregor-ojstersek" class="text-xl font-medium text-center text-gray-900 dark:text-white">Gregor Ojstersek</h5>
       <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
         <p class="">CTO | Author of Engineering Leadership newsletter - Helping you become a great engineering leader!</p>
       </div>
@@ -113,7 +171,7 @@
   <div class="flex flex-col h-full justify-between">
     <div class="flex flex-col items-center">
       <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D4D03AQHOhxrqJT6YFw/profile-displayphoto-shrink_800_800/0/1704364269667?e=1712793600&v=beta&t=6E_mNXAd0zXx4eEd1h7ujRu83MDWBj5n0rVNvEKSaqw" alt="Alex Ewerlöf  avatar" />
-      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Alex Ewerlöf </h5>
+      <h5 id="alex-ewerloef" class="text-xl font-medium text-center text-gray-900 dark:text-white">Alex Ewerlöf </h5>
       <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
         <p class="">Original daily insights: Tech Leadership | Software Reliability Engineering | Growth</p>
       </div>
@@ -152,7 +210,7 @@
   <div class="flex flex-col h-full justify-between">
     <div class="flex flex-col items-center">
       <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo" alt="Sahil Gaba avatar" />
-      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Sahil Gaba</h5>
+      <h5 id="sahil-gaba" class="text-xl font-medium text-center text-gray-900 dark:text-white">Sahil Gaba</h5>
       <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
         <p class="">Software Engineer at Google | Amazon | YouTuber</p>
       </div>
@@ -188,7 +246,7 @@
   <div class="flex flex-col h-full justify-between">
     <div class="flex flex-col items-center">
       <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k" alt="Nikki Siapno avatar" />
-      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">Nikki Siapno</h5>
+      <h5 id="nikki-siapno" class="text-xl font-medium text-center text-gray-900 dark:text-white">Nikki Siapno</h5>
       <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
         <p class="">Engineering Manager at Canva | Founder of Level Up Coding</p>
       </div>

@@ -4,7 +4,7 @@
   <div class="flex flex-col h-full justify-between">
     <div class="flex flex-col items-center">
       <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="{{ post.avatar_url }}" alt="{{ post.name }} avatar" />
-      <h5 class="text-xl font-medium text-center text-gray-900 dark:text-white">{{ post.name }}</h5>
+      <h5 id="{{ post.name | slugify }}" class="text-xl font-medium text-center text-gray-900 dark:text-white">{{ post.name }}</h5>
       <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
         <p class="">{{ post.headline }}</p>
       </div>
