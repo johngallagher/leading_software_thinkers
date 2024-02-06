@@ -1,15 +1,15 @@
   {% assign filters = posts | searchFilterCategories | searchFiltersSort | uniq %}
 
-  <div class="hidden md:flex space-x-2 items-center">
+  <div class="hidden md:flex space-x-2 items-center my-3">
     <label class="pr-4 text-sm">Topic</label>
     {% for filter in filters %}
       {% include "filter.liquid" %}
     {% endfor %}
   </div>
 
-  <div class="md:hidden flex w-full items-center">
-    <label class="pr-4 text-sm">Topic</label>
-    <select onchange="setFilter(this.value)" class="w-full px-4 py-2 bg-gray-200">
+  <div class="md:hidden flex w-full items-center mx-3">
+    <label class="block w-1/4 mr-3 text-sm font-medium text-gray-900 dark:text-white">Topic</label>
+    <select onchange="setFilter(this.value)" class="w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
       {% for filter in filters %}
         {% include "filter_option.liquid" %}
       {% endfor %}
