@@ -2,25 +2,89 @@
   {
     "categories": ["leadership", "career"],
     "name": "Gregor Ojstersek",
-    "headline": "CTO | Author of Engineering Leadership newsletter - Helping you become a great engineering leader!",
-    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ"
+    "headline": "CTO | Author of Engineering Leadership Newsletter - Helping you become a great engineering leader!",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.eng-leadership.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/gregorojstersek"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gregorojstersek"
+      },
+      {
+        "name": "Website",
+        "url": "https://www.gregorojstersek.com/"
+      }
+    ]
   },
   {
     "categories": ["reliability", "leadership", "technical"],
-    "name": "Alex Ewerlöf ",
+    "name": "Alex Ewerlöf",
     "headline": "Original daily insights: Tech Leadership | Software Reliability Engineering | Growth",
-    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQHOhxrqJT6YFw/profile-displayphoto-shrink_800_800/0/1704364269667?e=1712793600&v=beta&t=6E_mNXAd0zXx4eEd1h7ujRu83MDWBj5n0rVNvEKSaqw"
+    "avatar_url": "https://pbs.twimg.com/profile_images/1511245003389128704/2NcY4HvJ_400x400.jpg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.alexewerlof.com"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/alexewerlof"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexewerlof"
+      },
+      {
+        "name": "Book",
+        "url": "https://blog.alexewerlof.com/p/book-intro-reliability-engineering"
+      }
+    ]
   },
   {
     "categories": ["career", "technical"],
     "name": "Sahil Gaba",
     "headline": "Software Engineer at Google | Amazon | YouTuber",
-    "avatar_url": "https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo"
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@sahilandsarra"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/gabag26"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gabag26"
+      }
+    ]
   },
   {
     "categories": ["technical", "design"],
     "name": "Nikki Siapno",
     "headline": "Engineering Manager at Canva | Founder of Level Up Coding",
-    "avatar_url": "https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k"
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.levelupcoding.co"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/NikkiSiapno"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nikkisiapno"
+      }
+    ]
   }
 ]
