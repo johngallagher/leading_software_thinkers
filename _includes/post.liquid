@@ -27,7 +27,7 @@
         {% if forloop.first %}
         {% else %}
 
-          <a href="{{ link.url }}" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/{{ forloop.length | minus: 1 }}">{{ link.name }}</a>
+          <a href="{{ link.url }}" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center {{ forloop.length | toWidthClass }}">{{ link.name }}</a>
         {% endif %}
       {% endfor  %}
       </div>

@@ -1,5 +1,21 @@
 [
   {
+    "categories": ["technical", "design"],
+    "name": "Neo K",
+    "headline": "Author of System Design Newsletter (37K+ Subscribers)",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQG2XqzjnhRXPQ/profile-displayphoto-shrink_800_800/0/1697825140461?e=1712793600&v=beta&t=NZdMF5fs2qktEm4o-kyz5Vh_5hIgjRWHpw_K95qcLrI",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.systemdesign.one"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nk-systemdesign-one"
+      }
+    ]
+  },
+  {
     "categories": ["leadership", "career"],
     "name": "Gregor Ojstersek",
     "headline": "CTO | Author of Engineering Leadership Newsletter - Helping you become a great engineering leader!",
@@ -86,5 +102,89 @@
         "url": "https://www.linkedin.com/in/nikkisiapno"
       }
     ]
-  }
+  },
+    {
+      "categories": ["technical", "design"],
+      "name": "Alex Nguyen",
+      "headline": "SWE Blogger | @Google Prev. @Msft @Amzn",
+      "avatar_url": "https://media.licdn.com/dms/image/D5603AQGJRz-PdAqr4Q/profile-displayphoto-shrink_800_800/0/1695513017423?e=1712793600&v=beta&t=W6BkhO2M4cIYEjpV8EfvmVo7eHrXhKnXsDlQeKjPaHQ",
+      "links": [
+        {
+          "name": "Newsletter",
+          "url": "https://bytesizeddesign.substack.com/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/alexcancode/"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/kZQVjnJcW9"
+        }
+      ]
+    },
+    {
+      "categories": ["technical", "design"],
+      "name": "Alex Xu",
+      "headline": "Author of the bestselling book series: ‘System Design Interview’ | Co-Founder of ByteByteGo",
+      "avatar_url": "https://media.licdn.com/dms/image/C5603AQEReSODdvboJw/profile-displayphoto-shrink_800_800/0/1633380704182?e=1712793600&v=beta&t=rG1ZcHiaMeWEwchI4Nvs-zWlvgtknUdbl5kkP9sWNyU",
+      "links": [
+        {
+          "name": "Newsletter",
+          "url": "https://blog.bytebytego.com/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/alexxubyte/"
+        }
+      ]
+    },
+    {
+      "categories": ["coding"],
+      "name": "John Crickett",
+      "headline": "Helping you become a better software engineer with daily coding challenges",
+      "avatar_url": "https://media.licdn.com/dms/image/C5603AQEFfuysv6BT2A/profile-displayphoto-shrink_800_800/0/1660062450078?e=1712793600&v=beta&t=FkwpBa2FXt9YRk_tb0GOObTrR0TAxo14122VN_-SaP0",
+      "links": [
+        {
+          "name": "Newsletter",
+          "url": "https://codingchallenges.fyi/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/johncrickett"
+        }
+      ]
+    },
+    {
+      "categories": ["health"],
+      "name": "Richard Donovan",
+      "headline": "💚 Helping Developers & Leaders Balance Wellbeing and Performance",
+      "avatar_url": "https://media.licdn.com/dms/image/C4D03AQGK-o6GZgaIkw/profile-displayphoto-shrink_800_800/0/1640795604814?e=1712793600&v=beta&t=ZZJ4_vmMcRf90U3b2T8jvgw14YjMVpFIrHM2ed4BCj8",
+      "links": [
+        {
+          "name": "Newsletter",
+          "url": "https://tmsd.substack.com/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/rich-donovan/"
+        }
+      ]
+    },
+    {
+      "categories": ["career"],
+      "name": "Jordan Cutler",
+      "headline": "Senior Software Engineer | Writing about software engineering career growth | Author of \"High Growth Engineer\" newsletter",
+      "avatar_url": "https://media.licdn.com/dms/image/D4E03AQG0dpTOGelgZA/profile-displayphoto-shrink_800_800/0/1700099535015?e=1712793600&v=beta&t=XEbIGETGuOcTa0Aw8__olCMdfpCAMOGZ1hbRWXkH8jY",
+      "links": [
+        {
+          "name": "Newsletter",
+          "url": "https://careercutler.substack.com/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jordancutler1/"
+        }
+      ]
+    }
 ]

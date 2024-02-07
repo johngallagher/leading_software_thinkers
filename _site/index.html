@@ -42,10 +42,26 @@
 </div>
     
       <div>
+  <input type="radio" onclick="setFilter('coding')" name="filters" id="filters_coding" class="sr-only peer" />
+  <label for="filters_coding"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Coding
+  </label>
+</div>
+    
+      <div>
   <input type="radio" onclick="setFilter('design')" name="filters" id="filters_design" class="sr-only peer" />
   <label for="filters_design"
     class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
     Design
+  </label>
+</div>
+    
+      <div>
+  <input type="radio" onclick="setFilter('health')" name="filters" id="filters_health" class="sr-only peer" />
+  <label for="filters_health"
+    class="px-4 py-2 bg-gray-200 text-gray-800 rounded cursor-pointer peer-checked:bg-blue-500 peer-checked:text-white">
+    Health
   </label>
 </div>
     
@@ -87,8 +103,16 @@
   Career
 </option>
       
+        <option value="coding">
+  Coding
+</option>
+      
         <option value="design">
   Design
+</option>
+      
+        <option value="health">
+  Health
 </option>
       
         <option value="leadership">
@@ -167,6 +191,95 @@
 </article>
         
         <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=technical]:block data-[category=design]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D5603AQGJRz-PdAqr4Q/profile-displayphoto-shrink_800_800/0/1695513017423?e=1712793600&v=beta&t=W6BkhO2M4cIYEjpV8EfvmVo7eHrXhKnXsDlQeKjPaHQ" alt="Alex Nguyen avatar" />
+      <h5 id="alex-nguyen" class="text-xl font-medium text-center text-gray-900 dark:text-white">Alex Nguyen</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">SWE Blogger | @Google Prev. @Msft @Amzn</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Design</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://bytesizeddesign.substack.com/"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/alexcancode/" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/2">LinkedIn</a>
+        
+      
+        
+
+          <a href="https://discord.com/invite/kZQVjnJcW9" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/2">Discord</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=technical]:block data-[category=design]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C5603AQEReSODdvboJw/profile-displayphoto-shrink_800_800/0/1633380704182?e=1712793600&v=beta&t=rG1ZcHiaMeWEwchI4Nvs-zWlvgtknUdbl5kkP9sWNyU" alt="Alex Xu avatar" />
+      <h5 id="alex-xu" class="text-xl font-medium text-center text-gray-900 dark:text-white">Alex Xu</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Author of the bestselling book series: ‘System Design Interview’ | Co-Founder of ByteByteGo</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Design</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://blog.bytebytego.com/"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/alexxubyte/" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-full">LinkedIn</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
   class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=leadership]:block data-[category=career]:block data-[category=any]:block"
   data-category="any">
   <div class="flex flex-col h-full justify-between">
@@ -219,6 +332,126 @@
 </article>
         
         <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=coding]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C5603AQEFfuysv6BT2A/profile-displayphoto-shrink_800_800/0/1660062450078?e=1712793600&v=beta&t=FkwpBa2FXt9YRk_tb0GOObTrR0TAxo14122VN_-SaP0" alt="John Crickett avatar" />
+      <h5 id="john-crickett" class="text-xl font-medium text-center text-gray-900 dark:text-white">John Crickett</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Helping you become a better software engineer with daily coding challenges</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Coding</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://codingchallenges.fyi/"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/johncrickett" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-full">LinkedIn</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=career]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D4E03AQG0dpTOGelgZA/profile-displayphoto-shrink_800_800/0/1700099535015?e=1712793600&v=beta&t=XEbIGETGuOcTa0Aw8__olCMdfpCAMOGZ1hbRWXkH8jY" alt="Jordan Cutler avatar" />
+      <h5 id="jordan-cutler" class="text-xl font-medium text-center text-gray-900 dark:text-white">Jordan Cutler</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Senior Software Engineer | Writing about software engineering career growth | Author of "High Growth Engineer" newsletter</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Career</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://careercutler.substack.com/"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/jordancutler1/" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-full">LinkedIn</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=technical]:block data-[category=design]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/D4E03AQG2XqzjnhRXPQ/profile-displayphoto-shrink_800_800/0/1697825140461?e=1712793600&v=beta&t=NZdMF5fs2qktEm4o-kyz5Vh_5hIgjRWHpw_K95qcLrI" alt="Neo K avatar" />
+      <h5 id="neo-k" class="text-xl font-medium text-center text-gray-900 dark:text-white">Neo K</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">Author of System Design Newsletter (37K+ Subscribers)</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Technical</div>
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Design</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://newsletter.systemdesign.one"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/nk-systemdesign-one" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-full">LinkedIn</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
   class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=technical]:block data-[category=design]:block data-[category=any]:block"
   data-category="any">
   <div class="flex flex-col h-full justify-between">
@@ -258,6 +491,45 @@
         
 
           <a href="https://www.linkedin.com/in/nikkisiapno" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-1/2">LinkedIn</a>
+        
+      
+      </div>
+    </div>
+  </div>
+</article>
+        
+        <article
+  class="p-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 post hidden data-[category=health]:block data-[category=any]:block"
+  data-category="any">
+  <div class="flex flex-col h-full justify-between">
+    <div class="flex flex-col items-center">
+      <img class="w-16 h-16 mb-3 rounded-full shadow-lg" src="https://media.licdn.com/dms/image/C4D03AQGK-o6GZgaIkw/profile-displayphoto-shrink_800_800/0/1640795604814?e=1712793600&v=beta&t=ZZJ4_vmMcRf90U3b2T8jvgw14YjMVpFIrHM2ed4BCj8" alt="Richard Donovan avatar" />
+      <h5 id="richard-donovan" class="text-xl font-medium text-center text-gray-900 dark:text-white">Richard Donovan</h5>
+      <div class="flex items-center h-20 dark:text-gray-400 text-center text-gray-500 text-sm">
+        <p class="">💚 Helping Developers & Leaders Balance Wellbeing and Performance</p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="w-full my-1 text-center">
+        
+          <div
+            class="inline-block bg-green-100 dark:bg-green-900 dark:text-green-300 font-medium me-0 px-1.5 py-0.5 rounded text-green-800 text-xs">Health</div>
+        
+      </div>
+      
+      
+      <div class="mt-2 w-full">
+        <a href="https://tmsd.substack.com/"
+          class="bg-blue-700 block dark:bg-blue-600 dark:focus:ring-blue-800 dark:hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium hover:bg-blue-800 px-4 py-2 rounded-lg text-center text-sm text-white">Newsletter</a>
+      </div>
+      <div class="flex flex-row pt-2 text-sm w-full">
+      
+        
+        
+      
+        
+
+          <a href="https://www.linkedin.com/in/rich-donovan/" class="dark:text-blue-500 font-medium hover:underline px-3 py-2 py4 text-blue-600 text-center w-full">LinkedIn</a>
         
       
       </div>

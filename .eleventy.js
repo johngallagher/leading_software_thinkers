@@ -39,5 +39,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("humanize", function (str) {
     return str.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
   });
+  eleventyConfig.addFilter("toWidthClass", function(length) {
+    if (length == 1 || length == 2) {
+      return "w-full";
+    } else {
+      return "w-1/" + (length - 1);
+    }
+  });
 };
 
