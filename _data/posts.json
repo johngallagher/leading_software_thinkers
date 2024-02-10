@@ -1,6 +1,9 @@
 [
   {
-    "categories": ["technical", "design"],
+    "categories": [
+      "technical",
+      "design"
+    ],
     "name": "Neo K",
     "headline": "Author of System Design Newsletter (37K+ Subscribers)",
     "avatar_url": "https://media.licdn.com/dms/image/D4E03AQG2XqzjnhRXPQ/profile-displayphoto-shrink_800_800/0/1697825140461?e=1712793600&v=beta&t=NZdMF5fs2qktEm4o-kyz5Vh_5hIgjRWHpw_K95qcLrI",
@@ -16,7 +19,10 @@
     ]
   },
   {
-    "categories": ["leadership", "career"],
+    "categories": [
+      "leadership",
+      "career"
+    ],
     "name": "Gregor Ojstersek",
     "headline": "CTO | Author of Engineering Leadership Newsletter - Helping you become a great engineering leader!",
     "avatar_url": "https://media.licdn.com/dms/image/C4D03AQEePbz_cmPa5Q/profile-displayphoto-shrink_800_800/0/1519556819214?e=1712793600&v=beta&t=zGJ-lk4qOQmxtSyP46-5SGluJAEXJZeHB5rt6taCxAQ",
@@ -40,7 +46,11 @@
     ]
   },
   {
-    "categories": ["reliability", "leadership", "technical"],
+    "categories": [
+      "reliability",
+      "leadership",
+      "technical"
+    ],
     "name": "Alex Ewerlöf",
     "headline": "Original daily insights: Tech Leadership | Software Reliability Engineering | Growth",
     "avatar_url": "https://pbs.twimg.com/profile_images/1511245003389128704/2NcY4HvJ_400x400.jpg",
@@ -64,7 +74,10 @@
     ]
   },
   {
-    "categories": ["career", "technical"],
+    "categories": [
+      "career",
+      "technical"
+    ],
     "name": "Sahil Gaba",
     "headline": "Software Engineer at Google | Amazon | YouTuber",
     "avatar_url": "https://media.licdn.com/dms/image/C5603AQGo7vmLHtq8Lw/profile-displayphoto-shrink_400_400/0/1626677360609?e=1712793600&v=beta&t=7Fz6eMfU86w1IoiLWMPEDpIkBr_qsMUBsh7TK1awFWo",
@@ -84,7 +97,10 @@
     ]
   },
   {
-    "categories": ["technical", "design"],
+    "categories": [
+      "technical",
+      "design"
+    ],
     "name": "Nikki Siapno",
     "headline": "Engineering Manager at Canva | Founder of Level Up Coding",
     "avatar_url": "https://media.licdn.com/dms/image/D5603AQFxs9syMnBJuQ/profile-displayphoto-shrink_800_800/0/1675399775695?e=1712793600&v=beta&t=bvVixSzzQmYOmkENG4m3mP7_JUQ_ZJW0nG2myXytT5k",
@@ -103,88 +119,337 @@
       }
     ]
   },
-    {
-      "categories": ["technical", "design"],
-      "name": "Alex Nguyen",
-      "headline": "SWE Blogger | @Google Prev. @Msft @Amzn",
-      "avatar_url": "https://media.licdn.com/dms/image/D5603AQGJRz-PdAqr4Q/profile-displayphoto-shrink_800_800/0/1695513017423?e=1712793600&v=beta&t=W6BkhO2M4cIYEjpV8EfvmVo7eHrXhKnXsDlQeKjPaHQ",
-      "links": [
-        {
-          "name": "Newsletter",
-          "url": "https://bytesizeddesign.substack.com/"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/alexcancode/"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/kZQVjnJcW9"
-        }
-      ]
-    },
-    {
-      "categories": ["technical", "design"],
-      "name": "Alex Xu",
-      "headline": "Author of the bestselling book series: ‘System Design Interview’ | Co-Founder of ByteByteGo",
-      "avatar_url": "https://media.licdn.com/dms/image/C5603AQEReSODdvboJw/profile-displayphoto-shrink_800_800/0/1633380704182?e=1712793600&v=beta&t=rG1ZcHiaMeWEwchI4Nvs-zWlvgtknUdbl5kkP9sWNyU",
-      "links": [
-        {
-          "name": "Newsletter",
-          "url": "https://blog.bytebytego.com/"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/alexxubyte/"
-        }
-      ]
-    },
-    {
-      "categories": ["coding"],
-      "name": "John Crickett",
-      "headline": "Helping you become a better software engineer with daily coding challenges",
-      "avatar_url": "https://media.licdn.com/dms/image/C5603AQEFfuysv6BT2A/profile-displayphoto-shrink_800_800/0/1660062450078?e=1712793600&v=beta&t=FkwpBa2FXt9YRk_tb0GOObTrR0TAxo14122VN_-SaP0",
-      "links": [
-        {
-          "name": "Newsletter",
-          "url": "https://codingchallenges.fyi/"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/johncrickett"
-        }
-      ]
-    },
-    {
-      "categories": ["health"],
-      "name": "Richard Donovan",
-      "headline": "💚 Helping Developers & Leaders Balance Wellbeing and Performance",
-      "avatar_url": "https://media.licdn.com/dms/image/C4D03AQGK-o6GZgaIkw/profile-displayphoto-shrink_800_800/0/1640795604814?e=1712793600&v=beta&t=ZZJ4_vmMcRf90U3b2T8jvgw14YjMVpFIrHM2ed4BCj8",
-      "links": [
-        {
-          "name": "Newsletter",
-          "url": "https://tmsd.substack.com/"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/rich-donovan/"
-        }
-      ]
-    },
-    {
-      "categories": ["career"],
-      "name": "Jordan Cutler",
-      "headline": "Senior Software Engineer | Writing about software engineering career growth | Author of \"High Growth Engineer\" newsletter",
-      "avatar_url": "https://media.licdn.com/dms/image/D4E03AQG0dpTOGelgZA/profile-displayphoto-shrink_800_800/0/1700099535015?e=1712793600&v=beta&t=XEbIGETGuOcTa0Aw8__olCMdfpCAMOGZ1hbRWXkH8jY",
-      "links": [
-        {
-          "name": "Newsletter",
-          "url": "https://careercutler.substack.com/"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/jordancutler1/"
-        }
-      ]
-    }
+  {
+    "categories": [
+      "technical",
+      "design"
+    ],
+    "name": "Alex Nguyen",
+    "headline": "SWE Blogger | @Google Prev. @Msft @Amzn",
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQGJRz-PdAqr4Q/profile-displayphoto-shrink_800_800/0/1695513017423?e=1712793600&v=beta&t=W6BkhO2M4cIYEjpV8EfvmVo7eHrXhKnXsDlQeKjPaHQ",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://bytesizeddesign.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexcancode/"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/invite/kZQVjnJcW9"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical",
+      "design"
+    ],
+    "name": "Alex Xu",
+    "headline": "Author of the bestselling book series: ‘System Design Interview’ | Co-Founder of ByteByteGo",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQEReSODdvboJw/profile-displayphoto-shrink_800_800/0/1633380704182?e=1712793600&v=beta&t=rG1ZcHiaMeWEwchI4Nvs-zWlvgtknUdbl5kkP9sWNyU",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.bytebytego.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexxubyte/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "John Crickett",
+    "headline": "Helping you become a better software engineer with daily coding challenges",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQEFfuysv6BT2A/profile-displayphoto-shrink_800_800/0/1660062450078?e=1712793600&v=beta&t=FkwpBa2FXt9YRk_tb0GOObTrR0TAxo14122VN_-SaP0",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://codingchallenges.fyi/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/johncrickett"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "health"
+    ],
+    "name": "Richard Donovan",
+    "headline": "💚 Helping Developers & Leaders Balance Wellbeing and Performance",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQGK-o6GZgaIkw/profile-displayphoto-shrink_800_800/0/1640795604814?e=1712793600&v=beta&t=ZZJ4_vmMcRf90U3b2T8jvgw14YjMVpFIrHM2ed4BCj8",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://tmsd.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rich-donovan/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career"
+    ],
+    "name": "Jordan Cutler",
+    "headline": "Senior Software Engineer | Writing about software engineering career growth | Author of \"High Growth Engineer\" newsletter",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQG0dpTOGelgZA/profile-displayphoto-shrink_800_800/0/1700099535015?e=1712793600&v=beta&t=XEbIGETGuOcTa0Aw8__olCMdfpCAMOGZ1hbRWXkH8jY",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://careercutler.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jordancutler1/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Irina Stanescu",
+    "headline": "Engineering Leader & Coach • ex-Google, ex-Uber • Course Instructor • Author of \"The Caring Techie Newsletter\"",
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQEZVEIrJ5Ju2Q/profile-displayphoto-shrink_800_800/0/1699505752567?e=1712793600&v=beta&t=sp7nOrHUCrHGkvromlc-LWxutycXHulDqLmvbM8SBQg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://www.thecaringtechie.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/irinastanescu/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Addy Osmani",
+    "headline": "Engineering Leader, Google Chrome. Best-selling Author. Speaker.",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQG-kg-X-lEetw/profile-displayphoto-shrink_800_800/0/1636837249612?e=1712793600&v=beta&t=10BlwmCJvPNnlKoM5aYlasGB4J2uNh-3Y91zkJO0gnI",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://addyo.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/addyosmani/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership",
+      "career"
+    ],
+    "name": "Anton Zaides",
+    "headline": "R&D Team Leader | Writing the \"Leading Developers\" newsletter",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQGZR-hn_PkW2w/profile-displayphoto-shrink_800_800/0/1675525689431?e=1712793600&v=beta&t=fuFhBV4A6tutlQoPTQtDsPdTsp1w_QkbFvZYO8VjqH0",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://zaidesanton.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anton-zaides/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical",
+      "leadership"
+    ],
+    "name": "Nicola Ballotta",
+    "headline": "Director of Cloud at Namecheap | 🤓 Author of The Hybrid Hacker (19k Subscribers), a newsletter about Engineering Management, Leadership, Career Growth and Productivity",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQFqQntiA02OEA/profile-displayphoto-shrink_800_800/0/1699778094132?e=1712793600&v=beta&t=7tAZn_HDofcksNaGSftw4HpsRmNbXFk5W0yO11tCjzM",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://hybridhacker.email/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nicolaballotta/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Dr Milan Milanović",
+    "headline": "Chief Roadblock Remover and Learning Enabler | Thought Leader | High-Performance Coach | Speaker | Author of Tech World With Milan Newsletter | Building great products, building great teams!",
+    "avatar_url": "https://media.licdn.com/dms/image/C4E03AQGItl85Qu-3Mw/profile-displayphoto-shrink_800_800/0/1660772893683?e=1712793600&v=beta&t=raHYJyLYRk-_MijHf7DQmg9qhclk5c0B-FTH7wdvN1w",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.techworld-with-milan.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/milanmilanovic/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Anemari Fiser",
+    "headline": "Helping techies level up in their careers by developing their non-tech skills | Engineering Leader & Certified Career Coach | Country Director GWTL | ex-Thoughtworks",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQFJMxY_zFCMJQ/profile-displayphoto-shrink_800_800/0/1612371726266?e=1712793600&v=beta&t=7A7Z0nk1W2aCdfJQIU4wFUiJ_tX3KPYVn9YDAklqN8s",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://anemarifiser.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anemari-fiser/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Raviraj Achar",
+    "headline": "Staff Software Engineer at Meta | Writing the \"Techlead mentor\" newsletter",
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQFqULHaH1QGoQ/profile-displayphoto-shrink_800_800/0/1701154688758?e=1712793600&v=beta&t=zJrvKdH932R0-5xG7dLFyhkXPo6kxhoXwWETn3KPU3c",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.techleadmentor.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ravirajachar/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Dariusz Sadowski",
+    "headline": "I support tech leaders in building top-tier technical teams | Engineering Manager at Monese / XYB",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQGBdDo_kO3JBA/profile-displayphoto-shrink_800_800/0/1696616350478?e=1712793600&v=beta&t=sItmhg-f66gg1Its7K8Op5m7PPjaC4Qy8LTV3vmZJGA",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://darsadowski.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/darsadowski/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Adrian Stanek",
+    "headline": "Writing about Culture in Tech | Mentor | CTO | Dad 👨‍👩‍👧‍👦",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQHQZwel4y0nXw/profile-displayphoto-shrink_800_800/0/1680513813621?e=1712793600&v=beta&t=lr0Ba_YLAoOuGNV5uegF_ZORb3B4_PWPJU13FAib_u0",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.snackablecto.coach/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/adrianstanek/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership",
+      "technical"
+    ],
+    "name": "Denis Čahuk",
+    "headline": "I coach tech leaders and their teams to lower their risk of missing deadlines and avoid expensive tech debt rewrites on the most critical products | TDD, DDD, Event Modeling, Agile, Life Coach Expert",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQH01gNVR3Yeqw/profile-displayphoto-shrink_800_800/0/1696532987627?e=1712793600&v=beta&t=Jn96GFZVog_Sz2St39TpiQjlz0Gd99URzP7vBqQv13E",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://craftingtechteams.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/deniscahuk/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Ryan Murphy",
+    "headline": "Engineering Manager at Yelp | Author @ The Software Engineering Times",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQGV0ix5lglKpg/profile-displayphoto-shrink_800_800/0/1607633573024?e=1712793600&v=beta&t=CzbYcxgIosvvTfWc7J1tVFuOqnFh11vgwzBTxUe-6So",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://thesoftwareengineeringtimes.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ryansmurphy1/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Matt Watson",
+    "headline": "4x Founder, CTO/CEO, Startup Hustle Podcast Host",
+    "avatar_url": "https://media.licdn.com/dms/image/C4E03AQEQlNsDbIUy6w/profile-displayphoto-shrink_800_800/0/1651801144223?e=1712793600&v=beta&t=wQQFDOj0IgkNwLVr2mk1Ew1Fn-MI0UzuoW4v5u-MEDQ",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.visionarycto.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mattwatsonkc"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "leadership"
+    ],
+    "name": "Luca Rossi",
+    "headline": "CTO • Author of Refactoring.fm • I write weekly about making software and working with humans, to 65K+ engineers and managers.",
+    "avatar_url": "https://media.licdn.com/dms/image/C4E03AQErYhX7N8a79Q/profile-displayphoto-shrink_800_800/0/1636283987925?e=1712793600&v=beta&t=kSnhYk3atpBGfxBzuQtEU13EC70M302ulbgwoMqleOg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://refactoring.fm/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lucaronin/"
+      }
+    ]
+  }
 ]
