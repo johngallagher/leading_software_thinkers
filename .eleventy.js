@@ -42,8 +42,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("toWidthClass", function(length) {
     if (length == 1 || length == 2) {
       return "w-full";
-    } else {
-      return "w-1/" + (length - 1);
+    } else if (length == 3) {
+      return "w-1/2";
+    } else if (length == 4) {
+      return "w-1/3";
     }
   });
 };
