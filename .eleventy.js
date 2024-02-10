@@ -48,5 +48,6 @@ module.exports = function (eleventyConfig) {
       return "w-1/3";
     }
   });
+  eleventyConfig.addPassthroughCopy("images")
 };
 

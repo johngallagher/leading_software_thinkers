@@ -47,7 +47,6 @@
   },
   {
     "categories": [
-      "reliability",
       "leadership",
       "technical"
     ],
@@ -449,6 +448,267 @@
       {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/lucaronin/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Ryan Peterman",
+    "headline": "Staff Software Engineer @ Instagram | Writing About Software Engineering & Career Growth",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQEnmPODiBiC2w/profile-displayphoto-shrink_800_800/0/1523132875097?e=1712793600&v=beta&t=ty0v45tBlEtFkqy19ftE7yo6Ob24ZIxeteJKSHGy-v8",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://www.developing.dev/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ryanlpeterman/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Caleb Mellas",
+    "headline": "Follow for Daily Insights on Leveling Up in your Software Engineering skills and career 🚀 | Ex-Wisely, 1 of 8 engineers at a hyper-growth startup acquired for 9 figures",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQGp2xC6R_DVpA/profile-displayphoto-shrink_800_800/0/1686420556577?e=1712793600&v=beta&t=iS1E5ZfCFZvI741w_FWyUUkwEUJYWndH-DRNW_d0ub4",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://levelupsoftwareengineering.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/calebmellas/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Fran Soto",
+    "headline": "SDE2 @Amazon | Join 2,500+ engineers in my career growth newsletter. Take control of your career in software",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQF-B1F0NcrZqg/profile-displayphoto-shrink_800_800/0/1696016496790?e=1712793600&v=beta&t=K4RDe8woqHEeTHyS09U7Q4XOzL4tcR82JlUBQi6rPpg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://strategizeyourcareer.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fransotodev/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Gergely Orosz",
+    "headline": "Observations on software engineering at Big Tech and startups. Writing The Pragmatic Engineer, the #1 technology newsletter on Substack. Author of The Software Engineer's Guidebook.",
+    "avatar_url": "https://media.licdn.com/dms/image/C5603AQGWBb92j8rCnA/profile-displayphoto-shrink_800_800/0/1521407065106?e=1712793600&v=beta&t=GqnDrdp_u-1aM3dgdPxaSeZ-shui1CyIUri-96cpo5w",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.pragmaticengineer.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gergelyorosz/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Kent Beck",
+    "headline": "Programmer, artist, musician, pokerist",
+    "avatar_url": "images/kent-beck.jpg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://tidyfirst.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kentbeck/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Mike Thornton",
+    "headline": "🔸Unpacking Software Architecture",
+    "avatar_url": "https://media.licdn.com/dms/image/D5603AQF0zsKS1NI4wg/profile-displayphoto-shrink_800_800/0/1689023745298?e=1712793600&v=beta&t=iuRtdDgs4e-zolfsD85WmW0M-gFrmo131NjCOOmVhC4",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://blog.devdetails.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/devdetails/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Mads Brodt",
+    "headline": "Front-End Lead | Helping front-end engineers level up their skills and land jobs | JavaScript, React, Vue, TailwindCSS",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQFc4tLHlVmiQw/profile-displayphoto-shrink_800_800/0/1688675073693?e=1712793600&v=beta&t=KmNDkLRpHF7JdQs6hdUeG8vqw1u7jgARGog3s79aA8w",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://frontendfocus.substack.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/madsbrodt/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Daniel Moka",
+    "headline": "I help you master Test-Driven Development (TDD)",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQFTTBmB5lk4Tg/profile-displayphoto-shrink_800_800/0/1675798420786?e=1712793600&v=beta&t=WZVtoB4FhvA6CGIOWA1ra-wTa81TcEtIRiuK1KXIZxQ",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://craftbettersoftware.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/danielmoka/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "career",
+      "technical"
+    ],
+    "name": "Tiger Abrodi",
+    "headline": "Fullstack Product Developer",
+    "avatar_url": "https://media.licdn.com/dms/image/D4E03AQFuTk5mpCvsFQ/profile-displayphoto-shrink_800_800/0/1696133927472?e=1712793600&v=beta&t=Ji9JeAIgo9U2TCLht9Rszc3Y-mU_xg2XlvGAq7nTNJs",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://www.saiyangrowthletter.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tiger-abrodi/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Petar Ivanov",
+    "headline": "Practical tips helping you level up coding skills 🚀 Front-End, Back-End, Software Design & Architecture 🔥 The T-Shaped Dev 🧙",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQErOhUkFb6w1g/profile-displayphoto-shrink_800_800/0/1687508107185?e=1712793600&v=beta&t=-YvTPubyn8r1THPGZ55ccmyefe0ENohoyqGABrPMqBg",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://thetshaped.dev/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/petarivanovv9/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Fernando Franco",
+    "headline": "Senior Software Engineer | Making Algorithms & Distributed Systems simple for everyone | Follow to become a better engineer",
+    "avatar_url": "https://media.licdn.com/dms/image/C4D03AQFYwiOLIHs8qQ/profile-displayphoto-shrink_800_800/0/1662324901391?e=1712793600&v=beta&t=nG3cuE9WOzXCPW_a8OaGNMFIlG7v21Rit0BmHabKhWE",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://newsletter.francofernando.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fernando-franco-4696708/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Ankur Tyagi",
+    "headline": "Software Engineer | Consultant | Writer",
+    "avatar_url": "https://media.licdn.com/dms/image/C4E03AQH056oZ3mqCwg/profile-displayphoto-shrink_800_800/0/1644316773193?e=1712793600&v=beta&t=JqO1qWAARB0FiyUaJPH_U_wLdQzwKOxQh6-PuQ9lyBM",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://bytesizedbets.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/theankurtyagi"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Alexandre Zajac",
+    "headline": "SDE & AI @Amazon | Building the Hungry Minds Newsletter | Daily Posts on Software Engineering, System Design, and Generative AI ⚡",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQHyMNcPfUYz3A/profile-displayphoto-shrink_800_800/0/1706002241204?e=1712793600&v=beta&t=6dY0_Dm1hacLiYyvd9PB28Xg0LZz7e6svxV8pyGJOc0",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://hungryminds.dev"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexandre-zajac/"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "technical"
+    ],
+    "name": "Maximiliano Contieri",
+    "headline": "Engineering Manager@Avature | CS Teacher@UBA | Book Author@O'Reilly | MaximilianoContieri.com",
+    "avatar_url": "https://media.licdn.com/dms/image/D4D03AQGbMPHJzOmoRQ/profile-displayphoto-shrink_800_800/0/1700403460415?e=1712793600&v=beta&t=ksKGE0n628XB0WxgyqkR2dA6m6Irr3t4MOR67BjNZjI",
+    "links": [
+      {
+        "name": "Newsletter",
+        "url": "https://maximilianocontieri.com/newsletter"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mcsee/"
       }
     ]
   }
